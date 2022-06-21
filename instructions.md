@@ -338,4 +338,28 @@ Comments of Submission: init changes
 
 ## Autograder Status
 
-You can keep track of the grading status of your project on the assignment page. A yellow dot means that the tests are still being compiled and run by the autograder.This shouldn't take more than a minute or two. You can refresh the page to update the status. A green checkmark means that all your tests have passed. A red x means that at least one test failed.
+You can keep track of the grading status of your project on the assignment page. A yellow dot means that the tests are still being compiled and run by the autograder. This shouldn't take more than a minute or two. You can refresh the page to update the status. A green checkmark means that all your tests have passed. A red x means that at least one test failed.
+
+<br/>
+
+Yellow dot: running autograder
+
+<img src="images/others/test-04_results_github_01.png" alt="test_result_github" width="1000"/>
+
+</br>
+
+A red x: at least one test failed
+
+<img src="images/others/test-04_results_github_02.png" alt="test_result_github" width="1000"/>
+
+</br>
+
+A green checkmark: all tests have passed
+
+<img src="images/others/test-04_results_github_03.png" alt="test_result_github" width="1000"/>
+
+</br>
+
+Click on `Details` to see test details.
+
+<img src="images/others/test-04_results_github_04.png" alt="test_result_github" width="1000"/>
