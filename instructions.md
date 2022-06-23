@@ -259,10 +259,14 @@ All the projects in this class will follow the same file organization.
 On the left panel (Explorer) you will find:
 
 - `main.cpp`: on the root folder, this will be the most important file you finish assignment before you learn function.
+- `submit.sh`: run `sh submit.sh` to submit your assignment to github to get grader.
+- `README.md`: fill out it with your output and analysis.
+- `.gitignore`: file for github, do not modify it.
+
+After Chapter 04
 
 - `includes`: contains a folder for the function your project depends on. In this starter code, you only have a `stub` folder that contains `stub.h` and `stub.cpp`. These files are `#include`d in `main.cpp`
 
-- `submit.sh`: run `sh submit.sh` to submit your assignment to github to get grader.
 
 <img src="images/others/02-vscode_file_structure.png" alt="vscode_after_cloning" width="200"/>
 
