@@ -301,7 +301,7 @@ Add these function signatures to the `xxx.h`
 
 ### Step 5: Open terminal
 
-If you are using VSCode, you can open the terminal by pressing [`ctrl`]+[`]
+If you are using VSCode, you can open the terminal by pressing [`ctrl`]+[ ` ]
 
 [`] is the key in the top left of the keyboard
 
@@ -323,8 +323,19 @@ Now, we are ready to compile project by clicking on **Run** (triangle) button.
 
 Run git commands to commit changes:
 
+To open the terminal by pressing [`ctrl`]+[ ` ]
+
+#### Mac
 ```sh
 $ sh submit.h
+
+# input some comments for your current change and press enter, for example.
+Comments of Submission: init changes
+```
+
+#### Windows
+```sh
+$ ./submit.h
 
 # input some comments for your current change and press enter, for example.
 Comments of Submission: init changes
