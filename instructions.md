@@ -488,7 +488,7 @@ To open the terminal by pressing [`ctrl`]+[ ` ]
 
 #### Mac
 ```sh
-$ sh submit.h
+$ sh submit.sh
 
 # input some comments for your current change and press enter, for example.
 Comments of Submission: init changes
@@ -496,7 +496,7 @@ Comments of Submission: init changes
 
 #### Windows
 ```sh
-$ ./submit.h
+$ ./submit.sh
 
 # input some comments for your current change and press enter, for example.
 Comments of Submission: init changes
