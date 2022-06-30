@@ -379,13 +379,13 @@ __Note__: Bookmark this page to know how to get here. We'll need to check in her
 
 ### Clone assignment
 
-Before you can work on your project, you will need a local copy of the assignment. This is called **clone** the repository.
+Before you can work on your project, you will need a local copy of the assignment. This is called **clone** the repository. Open the terminal and run following command.
 
 ```sh
 # create and go the the directory of projects
 $ cd /Users/stephen/CS2/
 
-# clone repo
+# clone repo with your URL
 $ git clone https://github.com/stephengineer-CS002-classroom/00_lab_0-stephengineer.git
 ```
 
@@ -397,7 +397,7 @@ $ git clone https://github.com/stephengineer-CS002-classroom/00_lab_0-stephengin
 
 ### Open assignment with IDE
 
-For example, open VSCode and loads the project folder
+For example, open VSCode and loads the project folder. Or in your IDE, click on open folder.
 
 ```sh
 # go the project folder
@@ -418,9 +418,9 @@ On the left panel (Explorer) you will find:
 - `main.cpp`: on the root folder, this will be the most important file you finish assignment before you learn function.
 - `submit.sh`: run `sh submit.sh` to submit your assignment to github to get grader.
 - `README.md`: fill out it with your output and analysis.
-- `.gitignore`: file for github, do not modify it.
+- `.gitignore`: file for github, do NOT modify it.
 
-After Chapter 04
+**After Chapter 03**
 
 - `includes`: contains a folder for the function your project depends on. In this starter code, you only have a `stub` folder that contains `stub.h` and `stub.cpp`. These files are `#include`d in `main.cpp`
 
@@ -443,11 +443,14 @@ Pay special attention to the `#include` path at the top. Your file structure has
 
 <br>
 
-### Step 2: Create project folder
+**Skip step 2, 3, 4 for now, look at it after Chapter 03**
+
+
+### Step 2: Create project folder (After Chapter 03)
 
 Create a new function folder under the `includes/` folder and name this folder by instruction of assignment. This is the directory you will add your `.h` and `.cpp` files.
 
-### Step 3: Add two project files
+### Step 3: Add two project files (After Chapter 03)
 
 Add two files in the project folder:
 
@@ -456,7 +459,7 @@ Add two files in the project folder:
 
 </br>
 
-### Step 4: Add the function signatures
+### Step 4: Add the function signatures (After Chapter 03)
 
 Add these function signatures to the `xxx.h`
 
@@ -500,6 +503,22 @@ $ ./submit.sh
 
 # input some comments for your current change and press enter, for example.
 Comments of Submission: init changes
+```
+
+### Basic Bash Command
+
+```sh
+# display current path
+$ pwd
+
+# list all files in current folder
+$ ls
+
+# go back to one folder
+$ cd ..
+
+# go to 00_lab_0 folder
+$ cd 00_lab_0
 ```
 
 ---
